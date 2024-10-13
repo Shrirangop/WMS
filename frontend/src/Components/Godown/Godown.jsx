@@ -12,7 +12,7 @@ const Godown = () => {
 
     const getitems = async()=>{
         try{
-            const response = await axios.get(`http://localhost:8000/item`,{
+            const response = await axios.get(`https://wms-shrirangops-projects.vercel.app/item`,{
                 params:{
                     godown:godownId
                 }
