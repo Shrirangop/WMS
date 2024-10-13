@@ -6,7 +6,7 @@ const Item= ({ item }) => {
       <img 
         src={item.image_url} 
         alt={item.name} 
-        className="w-full h-48 object-cover rounded-t-lg"
+        className="w-full h-48 object-contain rounded-t-lg"
       />
       <div className="p-6">
         <h2 className="text-xl font-bold text-blue-700 mb-2">{item.name}</h2>
